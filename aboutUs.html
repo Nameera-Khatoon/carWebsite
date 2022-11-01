@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="About.css">
+    <script src="https://kit.fontawesome.com/f0568d9fe7.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us page</title>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        body{
+            font-family:sans-serif;
+        }
+    .header{
+        margin-bottom:40px;
+        } 
+.header>p 
+{
+text-align: center; width: 35%; margin:auto; font-size:16px ;
+}
+.header>h1{
+    font-size: 45px; 
+    text-align: center; 
+    margin-bottom: 25px;
+}
+#color {
+    color: #0315c1;
+}
+#container1 {
+    display: flex; 
+    align-items: center; 
+    width: 80%; 
+    justify-content: space-between; 
+    margin:auto; font-size: 17px; 
+    font-weight: bolder;
+}
+/* #container1>div{margin:1%;} */
+#container1>div{
+    display:flex; 
+    align-items: center; 
+    margin:2%;
+}
+#container1 img {
+    width: 60px; 
+    height: 60px;
+}
+
+#container1 span{
+    margin:8px;
+}
+#para {
+    line-height: 5px;
+}
+
+
+#prof {
+    display: flex;
+     width: 80%;
+      margin:auto;
+    }
+#prof>div{
+    width: 45%;
+     margin:auto;
+    }
+#prof img{
+    width: 100%;
+     border-radius: 10px;
+    }
+#prof>div:nth-child(1){
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+#prof>div:nth-child(1)>div{
+    margin:10px;
+}
+#prof>div:nth-child(1)>div:nth-child(1){
+    grid-area: 1/1/2/4
+}
+
+
+
+#prof>div:nth-child(1)>div:nth-child(1){
+    background-image: url("images/car-care-about-us.png"); 
+    height: 300px; 
+    border-radius: 10px; 
+    background-size: cover;
+}
+
+#prof>div:nth-child(1)>div:nth-child(2){
+    background-image: url("images/ccar-care-about-us-3.png");
+     height: 170px;
+      border-radius: 10px;
+       background-size: cover;
+     }
+#prof>div:nth-child(1)>div:nth-child(3){
+    background-image: url("images/car-care-about-us-2.png");
+     height: 170px; 
+     border-radius: 10px;
+      background-size: cover; 
+      transition: background-image 5s;
+    }
+#prof>div:nth-child(1)>div:hover{
+    background-size: 120%;
+}
+
+    /* #exp {display: flex; flex-direction:column;} */
+    #exp h3{
+        color: rgb(96, 90, 90); 
+        margin-bottom: -18px;
+    }
+#exp h1 {
+    font-size: 40px;
+     margin-bottom: 22px;
+    }
+#exp span {
+    color: #0315c1;
+}
+    #exp p {
+        line-height: 30px;
+        font-size: 17px;
+         color: rgb(90, 90, 90);
+        }
+    #exp a {
+        font-size: 18px;
+         font-weight: bold;
+        }
+    #exp a:hover {
+        color: black;
+    }
+    </style>
+</head>
+<body>
+    <div id="container">
+  <!-- navbar -->
+  <nav>
+    <div>
+       <a href="./index.html">
+        <img src="./images/FastCarWash.png" alt="" id="logo">
+        <h5>VASHI SOLUTION</h5>
+       </a>
+    </div>
+    <div>
+        <div>
+            <a href="./aboutUs.html">ABOUT US
+                <hr >
+            </a>
+            <a href="./Team.html">OUR TEAM
+                <hr>
+            </a>
+            <a href="./contactUs.html">CONTACT US
+                <hr>
+            </a>
+        </div>
+        <div>
+            <div>
+                <p>800.675.8797</p>
+                <p>Call Us</p>
+            </div>
+            <div style="display:grid ;grid-template-columns: repeat(2,1fr); align-items: center;">
+                <div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                   
+                </div>
+                <div style="text-align: center;">
+                    <img src="./images/shopping-bag2.png" alt="">
+                </div>
+            </div>
+            <div id="buyNow">
+                <button><a href="./contactUs.html">BUY NOW</a></button>
+            </div>
+        </div>
+    </div>
+    
+</nav>
+<hr>
+
+    <main>
+        <section class="header">
+            <h1>About <span id="color">our company</span></h1>
+            <p>
+                Pamper your car with premier full wash complete with interior vacuum and window cleaning.
+            </p>
+        </section>
+        <section id="container1">
+            <div>
+                <span><img src="images/securrgbgb.png"></span>
+                <span id="para">
+                    <p>Money back</p> 
+                    <p>guarantee</p>
+                </span>
+            </div>
+        
+        
+            <div>
+                <span><img src="images/placeholderrgbrg.png"></span>
+                <span id="para">
+                  <p>  Convenient</p>
+                     <p>location</p>
+                </span>
+            </div>
+        
+            <div><span ><img src="images/quality-rgbg.png"></span>
+                <span id="para"><p>Premium</p> 
+                <p>materials</p></span>
+            </div>
+
+            <div>
+                <span><img src="images/teamrgbg.png"></span>
+                <span id="para">
+                    <p>Experienced</p> 
+                <p>mechanics</p></span>
+            </div>
+        </section>
+        
+
+
+        <section id="prof">
+          <div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+
+
+        <div id="exp">
+                <h3>OUR EXPERIENCE</h3>
+                <h1>Professional <span>car wash</span> since 1990</h1>
+                <p>Our company has existed for over 20 years, and we are trying to improve the quality of service every day. We only use environmentally friendly ways to wash your car and use less water. Using our car wash ensures that you consume less water than with conventional road or sidewalk washing and that all waste water is safely returned to the environment.</p>
+
+                <a href="./contactUs.html">CONTACT US <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <div>
+            <div>
+                <h4>VASHI SOLUTION</h4>
+                <p style="font-size: 17px; color: gray;">Reinventing the way of creating websites, we aim to create the most master-peaced WordPress theme available on the market.</p>
+
+                <div>
+                    <h3>Social Links</h3>
+                    <div >
+                        <a href="#" style="font-size:30px ;"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#" style="font-size:30px ;"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" style="font-size:30px ;"><i class="fa-brands fa-instagram" ></i></a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3>Contact Us</h3>
+                <p style="font-size: 17px; color: gray;">202 Helga Springs Rd, Crawford, TN 38554</p>
+                <p style="font-size: 17px; color: gray;">Call Us: 800.285.8777</p>
+                <p style="font-size: 17px; color: gray;">alex@company.com</p>
+
+            </div>
+            <div >
+                <h3>Sign Up for Email Updates</h3>
+                <input type="text" style="padding:14px 40px;border-radius: 40px; border: 1PX solid grey;">
+                <button style="padding:15px 40px; border-radius:20px ; border: 1px solid grey;background-color: #0a2540;color:white ;font-size: 14px;">Subscribe</button>
+                <p style="font-size: 13px; color: gray;">
+                    Sign Up for Email Updates
+                    Your e-mail adress
+                    Sign up with your email address to receive news and updates</p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+</div>
+</body>
+</html>
